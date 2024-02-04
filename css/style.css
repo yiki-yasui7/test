@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: Helvetica Neue, Arial, Hiragino Sans, Meiryo, sans-serif
+    ;
+    color: #333;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+#mainvisual img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 70px;
+}
+
+#content {
+    text-align: center;
+    
+}
+
+#content .title {
+     margin-bottom: 20px;
+}
+
+#content p:last-child {
+    margin-bottom: 70px;
+}
+
+
+/*image*/
+
+.image {
+    margin-bottom: 60px;
+}
+
+.image ul {
+    display: flex;
+}
+
+.image ul li {
+    list-style: none;
+}
+
+.image img  {
+    width: 100%;
+    height: 500px;
+    
+}
+
+/*button*/
+
+.recipe {
+    text-align: center;
+    border: solid 1px #333;
+    margin-bottom: 60px;
+       
+    
+}
+
+.recipe a {
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+
+
+}
+
+.recipe p {
+    padding: 5px 10px;
+    margin: 10px; 
+}
+
+/*footer*/
+
+#footer {
+    text-align: center;
+    font-size: 0.8rem;
+    
+}
+    
+#footer ul {
+    
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#footer ul li {
+    margin: 0 auto;
+    display: inline-block;
+    
+
+}
+    +
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 834px) {
+    
+
+    .image ul {
+        flex-direction: column;
+    }
+
+    .image ul li img {
+        width: 100%;
+    }
+ 
+    
+}
